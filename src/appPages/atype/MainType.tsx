@@ -128,7 +128,7 @@ const generateText = (length: number): string => {
 };
 
 const MainType: React.FC = () => {
-  const [text, setText] = useState(generateText(80));
+  const [text,] = useState(generateText(80));
   const [isActive, setIsActive] = useState(false);
   const [correctWords, setCorrectWords] = useState(0);
   const [inputEnabled, setInputEnabled] = useState(false);
