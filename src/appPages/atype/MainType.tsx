@@ -145,9 +145,8 @@ const MainType: React.FC = () => {
     setCorrectWords(0);
   };
 
-  // Функция для перезагрузки страницы
   const handleRestart = () => {
-    window.location.reload(); // Перезагружаем страницу
+    window.location.reload(); 
   };
 
   const handleComplete = (correctWords: number) => {

@@ -13,7 +13,7 @@ const LogOut: React.FC = () => {
       console.log("Successful logout");
 
       // Clear tokens
-      localStorage.removeItem("authTokens"); // Очистите все токены, если они хранятся в одном объекте
+      localStorage.removeItem("authTokens"); 
 
       navigate("/auth/sign-in");
     } catch (err) {
