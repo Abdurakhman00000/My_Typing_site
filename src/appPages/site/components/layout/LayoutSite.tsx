@@ -1,5 +1,4 @@
 import HomePage from "../pages/HomePage";
-import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import scss from "./LayoutSite.module.scss";
 
@@ -10,7 +9,6 @@ const LayoutSite = () => {
       <main>
         <HomePage/>
       </main>
-      <Footer />
     </div>
   );
 };
