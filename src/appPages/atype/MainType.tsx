@@ -116,6 +116,12 @@ const words = [
   "you",
   "hello",
   "world",
+  "mayli",
+  "mayli",
+  "mayli",
+  "mayli",
+  "mayli",
+  "mayli"
 ];
 
 const generateText = (length: number): string => {
